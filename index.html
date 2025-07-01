@@ -38,35 +38,37 @@ bedroom_parent
    
     
     <div class="container2">
-       <h3 class="daily-info"> Clinical Benchmarking <div>🚍</div></h3>
+       <h3 class="daily-info"> Clinical Benchmarking 
+        <div>🚍</div>
+    </h3>
      <div class="parameters">
       <div class="totalAvg"><ul >
         <li ><label for="">
-        <div class="total-average"> <span >TOTAL AVERAGE </span><span class="avg-no"> 78%</span>
+        <div class="total-average"> <span >TOTAL AVERAGE </span>
+            <span class="avg-no"> 78%</span>
         </div>
    
        <div class="progress">
     <div class="bar"></div >
-    <div class="percent">78%</div >
+    <div class="percent"></div >
 </div>
 </label></li></ul>
          </div>
-       <div class="parameter-details"><ul>
+    <div >
+       <div><ul>
        
-        <li>Parameter-1 65%</li>
-       <li>Parameter-2 48%</li>
-       <li>Parameter-3 25%</li>
-       <li>Parameter-4 62%</li>
+      <div class="parameter-items" >  
+        <li class="parameter-details">Parameter-1 <span>65%</span></li> <progress  max="100" >65%</progress></li></div>
+       <div class="parameter-items">
+        <li class="parameter-details">Parameter-2 <span>48%</span></li> <progress  max="100" >48%</progress></li></div>
+      <div class="parameter-items"> 
+        <li class="parameter-details">Parameter-3 <span>25%</span></li>  <progress  max="100" >25%</progress></li> </div>
+       <div class="parameter-items">
+        <li class="parameter-details">Parameter-4 <span>62%</span></li> <progress  max="100" >62%</progress></li></div>
       </ul> 
       </div>
-        <ul>
-       
-       <progress  max="100" >65%</progress></li>
-       <progress  max="100" >48%</progress></li>
-       <progress  max="100" >25%</progress></li>   
-       <progress  max="100" >62%</progress></li>
-      </ul>
-      
+        
+      </div>
      </div>
       </div>
     </div>
@@ -76,11 +78,22 @@ bedroom_parent
     <div>
         <h2>Patient Details</h2>
     </div>
+    <div class="details">
     <div class="container3">
-        <div>Pending</div>
+        <div class="pending">Pending</div>
         <div>Upcoming(2)</div>
-        <div>
-            <img src="" alt="">
+        <div class="patient">
+            <img src="passportdownload.jpg" alt="">
+            <strong>Jerome Bell</strong>
+            <span>NOV</span><small>Procedure</small>
+            <div>CC</div>
+            <select name="" id=""></select>
+            <div>2:00</div>
+            <div>🚗</div>
+
+        </div>
+        <div class="patient">
+            <img src="passportdownload.jpg" alt="">
             Jerome Bell
             <span>NOV</span><small>Procedure</small>
             <div>CC</div>
@@ -89,10 +102,10 @@ bedroom_parent
             <div>🚗</div>
 
         </div>
-        <div>Pending</div>
-        <div>
-            <img src="" alt="">
-            Jerome Bell
+        <div>Pending (1)</div>
+        <div class="patient">
+            <img src="passportdownload.jpg" alt="">
+           <strong>Kristen Watson</strong>
             <span>NOV</span><small>Procedure</small>
             <div>CC</div>
             <select name="" id=""></select>
@@ -101,8 +114,126 @@ bedroom_parent
         </div>
         <div>Cancelled(0)</div>
     </div>
+     <div class="container3">
+        <div class="pending">In Progress</div>
+        <div>ConsultationRoom 1</div>
+        <div>
+            <img src="passportdownload.jpg" alt="" >
+            Marvin McKinney
+            <span>NOV</span><small>followup visit</small>
+            <div>CC</div>
+            <select name="" id=""></select>
+            <div>2:00</div>
+            <div>🚗</div>
+
+        </div>
+        <div class="availableRoom">Exam Room #2 Available</div>
+        <div class="availableRoom">Exam Room #3 Available</div>
+        <div class="availableRoom">Exam Room #4 Available</div>
+    </div>
+     <div class="container3">
+        <div class="pending">Completed</div>
+        <div>Checked Out (1)</div>
+        <div>
+            <img src="passportdownload.jpg" alt="">
+            Jerome Bell
+            <span>NOV</span><small>Procedure</small>
+            <div>CC</div>
+            <select name="" id=""></select>
+            <div>2:00</div>
+            <div>🚗</div>
+
+        </div>
+    </div>
+        <div class="request">
+     <div class="container4">
+        <div class="pending">Cross Consultation Request</div>
+        <div><input type="radio" name="crossConsult" id="" checked>
+            <label for="">From</label>
+            <input type="radio" name="crossConsult" id="">
+            <label for="">To</label>
+        </div>
+        <div>
+           <div>Patient Details</div>
+           <div>Leslie Alexander</div>
+           <div>MRN: AB12345 <br>34Y</div>
+
+        </div>
+        <div>Consultation Details</div>
+        <div> Dr. Bessie Cooper</div>
+
+        <div>General Physician <br>Believe Clinic</div>
+
+        <div>Action</div>
+        <div>
+            <button class="btn">Accept</button>
+            <button class="btn">Accept</button>
+            <button class="btn">Reject</button>
+        </div>    
+         <div>Leslie Alexander</div>
+           <div>MRN: AB12345 <br>34Y</div>
+
+       
+        <div>Consultation Details</div>
+        <div> Dr. Bessie Cooper</div>
+
+        <div>General Physician <br>Believe Clinic</div>
+
+        <div>Action</div>
+        <div>
+            <button class="btn">Accept</button>
+            <button class="btn">Accept</button>
+            <button class="btn">Reject</button>
+        </div>
+    </div>
+
+     <div class="container4">
+         <div class="pending">Referal Request</div>
+        <div><input type="radio" name="fromTo" id="" checked>
+            <label for="">From</label>
+            <input type="radio" name="fromTo" id="">
+            <label for="">To</label>
+        </div>
+        <div>
+           <div>Patient Details</div>
+           <div>Leslie Alexander</div>
+           <div>MRN: AB12345 <br>34Y</div>
+
+        </div>
+        <div>Consultation Details</div>
+        <div> Dr. Bessie Cooper</div>
+
+        <div>General Physician <br>Believe Clinic</div>
+
+        <div>Action</div>
+        <div>
+            <button class="btn">Accept</button>
+            <button class="btn">Accept</button>
+            <button class="btn">Reject</button>
+        </div>    
+         <div>Leslie Alexander</div>
+           <div>MRN: AB12345 <br>34Y</div>
+
+    
+        <div>Consultation Details</div>
+        <div> Dr. Bessie Cooper</div>
+
+        <div>General Physician <br>Believe Clinic</div>
+
+        <div>Action</div>
+        <div>
+            <button class="btn">Accept</button>
+            <button class="btn">Accept</button>
+            <button class="btn">Reject</button>
+        </div>
+     </div>
+        </div>
+        </div>
+    </div>
+        </div>
+    </div>
 </div>
-</div>
+
 
 
 </body>
