@@ -8,6 +8,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=bedroom_parent" />
+
     <link rel="stylesheet" href="index.css">
     <title>FIGMA Design</title>
 </head>
@@ -78,154 +79,164 @@ bedroom_parent
     <div>
         <h2>Patient Details</h2>
     </div>
-    <div class="details">
-    <div class="container3">
+    <div class="sub-detail">
         <div class="pending">Pending</div>
-        <div>Upcoming(2)</div>
-        <div class="patient">
-            <img src="passportdownload.jpg" alt="">
-            <strong>Jerome Bell</strong>
-            <span>NOV</span><small>Procedure</small>
-            <div>CC</div>
-            <select name="" id=""></select>
-            <div>2:00</div>
-            <div>🚗</div>
-
-        </div>
-        <div class="patient">
-            <img src="passportdownload.jpg" alt="">
-            Jerome Bell
-            <span>NOV</span><small>Procedure</small>
-            <div>CC</div>
-            <select name="" id=""></select>
-            <div>2:00</div>
-            <div>🚗</div>
-
-        </div>
-        <div>Pending (1)</div>
-        <div class="patient">
-            <img src="passportdownload.jpg" alt="">
-           <strong>Kristen Watson</strong>
-            <span>NOV</span><small>Procedure</small>
-            <div>CC</div>
-            <select name="" id=""></select>
-            <div>2:00</div>
-            <div>🚗</div>
-        </div>
-        <div>Cancelled(0)</div>
+     <div class="pending">In Progress</div>
+     <div class="pending">Completed</div>
+     <div class="pending">Cross Consultation Request</div>
     </div>
-     <div class="container3">
-        <div class="pending">In Progress</div>
-        <div>ConsultationRoom 1</div>
-        <div>
-            <img src="passportdownload.jpg" alt="" >
-            Marvin McKinney
-            <span>NOV</span><small>followup visit</small>
-            <div>CC</div>
-            <select name="" id=""></select>
-            <div>2:00</div>
-            <div>🚗</div>
-
+    <div class="details">
+       
+        <div class="container3">
+            <div class="title">Upcoming(2)</div>
+            
+        <div class="patient">
+           <div class="patientContent">
+            <div class="border"></div>
+            <div class="image"><img src="passportdownload.jpg" alt=""></div>
+             <div><strong>Jerome Bell</strong>
+            <div class="names">
+            <div><span class="nov">NOV</span><small class="procedure">Procedure</small></div>
+            <div class="cc">CC</div>
+            </div>
+            </div>
+            </div>
+            <div class="time">
+            <div class="hour">2:00</div>
+            <div class="bell">🛎</div>
+            </div>
         </div>
-        <div class="availableRoom">Exam Room #2 Available</div>
-        <div class="availableRoom">Exam Room #3 Available</div>
-        <div class="availableRoom">Exam Room #4 Available</div>
-    </div>
-     <div class="container3">
-        <div class="pending">Completed</div>
-        <div>Checked Out (1)</div>
-        <div>
-            <img src="passportdownload.jpg" alt="">
-            Jerome Bell
-            <span>NOV</span><small>Procedure</small>
-            <div>CC</div>
-            <select name="" id=""></select>
-            <div>2:00</div>
-            <div>🚗</div>
-
+        <select name="" id=""></select>
+        <div class="patient">
+           <div class="patientContent">
+            <div class="border"></div>
+            <div class="image"><img src="passportdownload.jpg" alt=""></div>
+             <div><strong>Kristin Watson</strong>
+            <div class="names">
+            <div><span class="nov">NOV</span><small class="procedure">Procedure</small></div>
+            <div class="cc">CC</div>
+            </div>
+            </div>
+            </div>
+            <div class="time">
+            <div class="hour">2:00</div>
+            <div class="bell">🛎</div>
+            </div>
         </div>
+        <select name="" id=""></select>
+
+        <div class="title">Pending (1)</div>
+        <div class="patient">
+           <div class="patientContent">
+            <div class="border"></div>
+            <div class="image"><img src="passportdownload.jpg" alt=""></div>
+             <div><strong>Kristin Watson</strong>
+            <div class="names">
+            <div><span class="nov">NOV</span><small class="procedure">Procedure</small></div>
+            <div class="cc">CC</div>
+            </div>
+            </div>
+            </div>
+            <div class="time">
+            <div class="hour">2:00</div>
+            <div class="bell">🛎</div>
+            </div>
+        </div>
+        <select name="" id=""></select>
+        <div class="title">Cancelled(0)</div>
+
+        <div class="dropItem">Drop Item Here</div>
     </div>
+
+   
+       
+       <div class="container3">
+            <div class="title">ConsultationRoom 1</div>
+            
+        <div class="patient">
+           <div class="patientContent">
+            <div class="border"></div>
+            <div class="image"><img src="passportdownload.jpg" alt=""></div>
+             <div><strong>Marvin McKinney</strong>
+            <div class="names">
+            <div><span class="nov">NOV</span><small class="procedure">Followup Visit</small></div>
+            <div class="cc">CC</div>
+            </div>
+            </div>
+            </div>
+            <div class="time"> Exam Room #1
+            <div class="hour">2:00</div>
+            <div class="bell">⏸🗄</div>
+            </div>
+        </div>
+        
+       <div class="availableRooms">
+          Exam Room #2 Available
+        </div>
+       
+  <div class="availableRooms">
+            Exam Room #3 Available
+        </div>
+        
+<div class="availableRooms">
+ Exam Room #4 Available
+        </div>
+        </div>
+    <div class="container3">
+            <div class="title">Checked Out (1)</div>
+            
+        <div class="patient">
+           <div class="patientContent">
+            <div class="border"></div>
+            <div class="image"><img src="passportdownload.jpg" alt=""></div>
+             <div><strong>Jerome Bell</strong>
+            <div class="names">
+            <div><span class="nov">NOV</span><small class="procedure">Procedure</small></div>
+            <div class="cc">CC</div>
+            </div>
+            </div>
+            </div>
+            <div class="time">
+            <div class="hour">2:00</div>
+            </div>
+        </div>
+        <select name="" id=""></select>
+        </div>
+        
+
         <div class="request">
      <div class="container4">
-        <div class="pending">Cross Consultation Request</div>
-        <div><input type="radio" name="crossConsult" id="" checked>
+        
+        <div class="title"><input type="radio" name="crossConsult" id="" checked>
             <label for="">From</label>
             <input type="radio" name="crossConsult" id="">
             <label for="">To</label>
         </div>
+        <div class="request1">
         <div>
-           <div>Patient Details</div>
+           <div class="total-average">Patient Details</div>
            <div>Leslie Alexander</div>
            <div>MRN: AB12345 <br>34Y</div>
-
         </div>
-        <div>Consultation Details</div>
-        <div> Dr. Bessie Cooper</div>
-
-        <div>General Physician <br>Believe Clinic</div>
-
-        <div>Action</div>
-        <div>
-            <button class="btn">Accept</button>
-            <button class="btn">Accept</button>
-            <button class="btn">Reject</button>
-        </div>    
-         <div>Leslie Alexander</div>
-           <div>MRN: AB12345 <br>34Y</div>
-
-       
-        <div>Consultation Details</div>
-        <div> Dr. Bessie Cooper</div>
-
-        <div>General Physician <br>Believe Clinic</div>
-
-        <div>Action</div>
-        <div>
-            <button class="btn">Accept</button>
-            <button class="btn">Accept</button>
-            <button class="btn">Reject</button>
-        </div>
-    </div>
-
-     <div class="container4">
-         <div class="pending">Referal Request</div>
-        <div><input type="radio" name="fromTo" id="" checked>
-            <label for="">From</label>
-            <input type="radio" name="fromTo" id="">
-            <label for="">To</label>
-        </div>
-        <div>
-           <div>Patient Details</div>
-           <div>Leslie Alexander</div>
-           <div>MRN: AB12345 <br>34Y</div>
-
-        </div>
-        <div>Consultation Details</div>
-        <div> Dr. Bessie Cooper</div>
-
-        <div>General Physician <br>Believe Clinic</div>
-
-        <div>Action</div>
-        <div>
-            <button class="btn">Accept</button>
-            <button class="btn">Accept</button>
-            <button class="btn">Reject</button>
-        </div>    
-         <div>Leslie Alexander</div>
-           <div>MRN: AB12345 <br>34Y</div>
-
     
-        <div>Consultation Details</div>
+        <div>
+        <div class="total-average">Consultation Details</div>
         <div> Dr. Bessie Cooper</div>
 
         <div>General Physician <br>Believe Clinic</div>
-
-        <div>Action</div>
-        <div>
-            <button class="btn">Accept</button>
-            <button class="btn">Accept</button>
-            <button class="btn">Reject</button>
         </div>
+        <div>
+        <div class="total-average">Action</div>
+        <div>
+            <button class="btn">🔘</button>
+            <button class="btn">🔘</button>
+            <button class="btn">☑</button>
+        </div>
+        </div>
+        </div>
+        </div> 
+        </div>   
+         
      </div>
         </div>
         </div>

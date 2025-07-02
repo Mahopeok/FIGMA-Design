@@ -4,15 +4,12 @@ body{
     font-family: "inter", sans-serif;
 }
 h3{
-    
-   
     background-color: #3b448a;
     color: white;
     border-radius: 15px;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
-    font-size: 20px;
-    font-weight: 400px;
+    font-size: 10px;
     padding: 10px;
     margin: 0;
    
@@ -40,6 +37,7 @@ li{
 .total-app, .total-visit{
     display: flex;
     justify-content: space-between;
+    align-items: center;
    
 
 }
@@ -59,7 +57,7 @@ max-width: fit-content;
 .container1{
     margin-right: 10px;
     
-    width: 300px;
+    width: 380px;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
@@ -72,21 +70,24 @@ max-width: fit-content;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 
 }
-.container3{
-    margin: 0 auto;
-}
 .appointments, .visit{
-    padding: 5px;
-    opacity: 0.5;
+    margin-left: 10px;
+    padding: 10px;
     font-size: 10px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
     line-height: 2.5;
-    width: 110px;
+    width: 150px;
     display: flex;
-    justify-content: space-between;
+    border-radius: 4px;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    border-top: hidden;
+    margin-right: 10px;
 }
+
 .in-out-patient{
     display: flex;
+    align-items: center;
         opacity: 0.7;
     font-size: 12px;
    line-height: 2.5;
@@ -107,6 +108,11 @@ max-width: fit-content;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
     opacity: 0.7;
     padding-top: 5px;
+    margin-bottom: 10px;
+    width: 30px;
+    padding-left: 7px;
+    border-radius: 4px;
+    margin-right: 10px;
 }
 .benchmarking{
 display: flex;
@@ -196,8 +202,8 @@ progress{
 h2{
   
     background-color: #3b448a;
-    font-size: 20px;
-    font-weight: 400;
+    font-size: 11px;
+    font-weight: 500;
     color: white;
     padding: 10px;
     border-radius: 4px;   
@@ -207,8 +213,11 @@ h2{
     display: flex;
 }
 .container3{
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
     border-radius: 15px;
+    margin-left: 6px;
+    width: 260px;
+
 }
 
 .container4{
@@ -217,22 +226,136 @@ h2{
     border-radius: 15px;
 }
 .pending{
+   
     color: black;
     background-color:#b2d1ff;
-    font-size: 20px;
+    font-size: 11px;
     font-weight: 400;
     padding: 10px;
     border-top-left-radius: 15px;  
     border-top-right-radius: 15px;
+    margin-right: 5px;
+    margin-bottom: 4px;
+}
+.sub-detail{
+    display: flex;
 }
 .patient{
+    display: flex;
+    justify-content: space-between;
     border-radius: 4px;
-     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
     padding: 10px;
-    margin: 0 auto;
+    padding-left: 0;
+    margin:10px;
 }
 img{
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
+
  }
+ .names{
+    padding-left: 10px;
+    
+ }
+.border{
+   border-left: solid;
+    border-width: 10px;
+    border-color: #127c10;
+    border-bottom-right-radius: 6px;
+    border-top-right-radius: 6px;
+    margin-right: 10px;
+}
+
+select{
+    border: none;
+    position: relative;
+    top: -115px;
+    right: -460px;
+
+}
+.nov{
+    background-color: #bdbdbd;
+    color: #000;
+    font-size: 11px;
+    text-align: center;
+    width: 40px;
+    display: inline-block;
+    margin-bottom: 4px;
+    border-radius: 2px;
+    margin-top: 10px;
+}
+
+.cc{
+  background-color: #bdbdbd;
+    color: #000;
+    font-size: 11px;
+    text-align: center;
+    width: 40px;
+    display: inline-block; 
+    border-radius: 2px; 
+}
+small.procedure{
+    font-size: 11px;
+ padding-left: 5px;
+ opacity: 0.5;
+
+}
+strong{
+    padding-left: 10px;
+    font-size: 11pxrge;
+}
+.patientContent{
+   display: flex;
+}
+
+.time{
+    margin-top:  20px;
+    
+    margin-right: 80px;
+}
+
+.hour{
+    
+    font-size: 11px;
+    opacity: 0.5;
+}
+
+.bell{
+    font-size: 11px;
+}
+.title{
+    font-weight: 500;
+   font-size: 11px;
+    padding: 10px;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.1);
+    width: auto;
+    margin-left: 10px;
+    padding-left: 0;
+    margin-right: 20px;
+}
+
+.request1{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.availableRooms{
+    padding: 50px;
+    opacity: 0.5;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    margin:10px;
+}
+
+.dropItem{
+    padding: 50px;
+    opacity: 0.5;
+    font-size: 20px;
+    text-align: center; 
+}
