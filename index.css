@@ -49,7 +49,7 @@ li{
 }
 
 .container{
-max-width: fit-content;
+    max-width: 90%;
     margin: 0 auto;
     background-color: white;
     
@@ -216,7 +216,7 @@ h2{
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
     border-radius: 15px;
     margin-left: 6px;
-    width: 260px;
+    width: 350px;
 
 }
 
@@ -261,10 +261,10 @@ img{
  }
 .border{
    border-left: solid;
-    border-width: 10px;
+    border-width: 8px;
     border-color: #127c10;
-    border-bottom-right-radius: 6px;
-    border-top-right-radius: 6px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
     margin-right: 10px;
 }
 
@@ -346,7 +346,6 @@ strong{
 .availableRooms{
     padding: 50px;
     opacity: 0.5;
-    font-size: 20px;
     text-align: center;
     border-radius: 4px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
@@ -356,6 +355,90 @@ strong{
 .dropItem{
     padding: 50px;
     opacity: 0.5;
-    font-size: 20px;
     text-align: center; 
+}
+
+.headers{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #3b448a;
+    font-size: 11px;
+}
+
+.header1, .header2, .header3{
+  
+    background-color:#b2d1ff;
+    font-size: 11px;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 229px;
+    padding-left: 250px;
+}
+.header1{
+    margin-right:1px ;
+}
+.header2{
+    background-color: #c2e1fd;
+    margin-right: 1px;
+}
+
+.patient-movement{
+    margin-bottom: 5px;
+    display: flex;
+   }
+.status{
+    background: linear-gradient(to right, #00c6ff, #fcfdfd);
+    margin-left: 1px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    width: 170px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.patient-details{
+   width: 170px;
+}
+
+.patient-movement-container{
+    display: flex;
+    color: #003cff;
+    font-size: 11px;
+    background-color: #b2d1ff;
+   
+
+   
+}
+
+.trackerHeading{
+   width: 150px;
+    display: flex;
+    height: 30px;
+    width: 170px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.trackerTitle{
+    align-content: center;
+}
+
+.title1{
+    align-items: center;
+    padding-left: 10px;
+    width: 160px;
+}
+
+.space{
+    height: 40px;
+}
+
+.sidebar{
+    background-color: #191f4f;
+    margin-left: 10px;
+    height: 300px;
+    position: fixed;
+    top: -50px;
+    right:50px
 }
